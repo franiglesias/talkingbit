@@ -1,0 +1,29 @@
+{
+    "name": "talkingbit/talkingbit",
+    "description": "Playground for PHP",
+    "type": "project",
+    "config": {
+        "bin-dir": "bin/"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^10.3",
+        "approvals/approval-tests": "dev-Main"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "TalkingBit\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Test\\TalkingBit\\": "tests/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Fran Iglesias",
+            "email": "franiglesias@mac.com"
+        }
+    ]
+}
